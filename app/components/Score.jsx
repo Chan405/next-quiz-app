@@ -17,7 +17,7 @@ function Score({ score }) {
         </h1>
 
         <button
-          className="w-[40%] my-4 bg-white hover:bg-gray-100   text-gray-800 font-semibold py-4 px-4 shadow-blue-200   rounded-lg shadow-2xl"
+          className="w-[40%] my-4 bg-red-500 hover:bg-red-300 hover:text-red-400   text-white font-semibold py-4 px-4 shadow-blue-200   rounded-lg shadow-2xl"
           onClick={() => window.location.reload()}
         >
           Play again

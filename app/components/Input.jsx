@@ -6,11 +6,11 @@ function Input() {
 
   return (
     <div className="flex flex-col gap-2">
-      <label> Number of questions </label>
+      <label className="text-white font-bold"> Number of questions </label>
       <input
         type="number"
         defaultValue={10}
-        className="h-8 rounded bg-gray-100 pl-3 focus:outline-none"
+        className="h-8 rounded bg-white pl-3 focus:outline-none"
         onChange={(e) => {
           const temp = parseInt(e.target.value);
           addQuestionNumber(temp);

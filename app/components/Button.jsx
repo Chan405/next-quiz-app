@@ -7,7 +7,7 @@ function Button() {
 
   return (
     <button
-      className="bg-white border border-slate-700 font-bold py-2 px-4 rounded mx-auto"
+      className="bg-white border text-red-500  font-bold py-2 px-4 rounded mx-auto"
       onClick={() => changeStatus("start")}
     >
       Start Quiz

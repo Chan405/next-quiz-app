@@ -7,14 +7,18 @@ import useQuiz from "@/store/store";
 export default function Home() {
   const config = useQuiz((state: any) => state.config);
   return (
-    <section className="flex flex-col items-center">
-      <h1 className="text-4xl font-bold my-4"> Welcome to Channie Quiz </h1>
+    <div className="flex justify-center items-center h-screen">
+      <section className="flex flex-col items-center w-full ">
+        <h1 className="text-4xl text-red-500 font-bold mb-5">
+          Welcome to Channie Quiz
+        </h1>
 
-      <section className="bg-white p-6 mx-6 shadow-md rounded-lg w-1/2">
-        <Input />
-        <DropdownOptions />
-        <Button />
+        <section className="bg-red-400 p-6 mx-6 shadow-md rounded-lg w-1/2">
+          <Input />
+          <DropdownOptions />
+          <Button />
+        </section>
       </section>
-    </section>
+    </div>
   );
 }
